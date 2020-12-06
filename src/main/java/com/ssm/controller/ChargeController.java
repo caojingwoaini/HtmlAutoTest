@@ -72,6 +72,7 @@ public class ChargeController {
     @RequestMapping("/chargeTest")
     @ResponseBody
     public ArrayList<String> ChargeTest(ChargeParameters chargeParameters){
+        String aaaa="aaaa";
         //用于存放推送的url
         Map<String,String> pushUrlMap=new HashMap<>();
         //用于存放推送的数据
