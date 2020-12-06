@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.ssm.dao.TblLevelMapper">
+    <resultMap id="tblLevelMap" type="com.ssm.entity.TblLevel">
+        <result property="level_id" column="level_id"></result>
+        <result property="level_seq" column="level_seq"></result>
+        <result property="level_name" column="level_name"></result>
+        <result property="cpy_id" column="cpy_id"></result>
+    </resultMap>
+
+    <select id="tblLevelInfo" parameterType="int" resultMap="tblLevelMap">
+    SELECT
+	level_id,
+	level_seq,
+	level_name,
+	cpy_id
+    FROM
+	tbl_level
+    WHERE
+	level_id = (
+		SELECT
+			level_id
+		FROM
+			tbl_user
+		WHERE
+			user_id = #{userid}
+	);
+    </select>
+</mapper>

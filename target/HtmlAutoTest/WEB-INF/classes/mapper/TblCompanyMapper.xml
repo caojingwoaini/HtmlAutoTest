@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.ssm.dao.TblCompanyMapper">
+
+    <resultMap id="tblCompanyMap" type="com.ssm.entity.TblCompany">
+        <result property="cpy_id" column="cpy_id"></result>
+        <result property="cpy_number" column="cpy_number"></result>
+        <result property="cpy_name" column="cpy_name"></result>
+        <result property="trade_type" column="trade_type"></result>
+        <result property="account_id" column="account_id"></result>
+    </resultMap>
+
+    <select id="tblCompanyInfo" parameterType="int" resultMap="tblCompanyMap">
+    SELECT
+        cpy_id,
+        cpy_number,
+        cpy_name,
+        trade_type,
+        account_id
+    FROM
+        tbl_company
+    WHERE
+        cpy_number = #{cpyNumber};
+    </select>
+</mapper>

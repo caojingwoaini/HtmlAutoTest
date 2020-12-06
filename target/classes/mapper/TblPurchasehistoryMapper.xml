@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.ssm.dao.TblPurchasehistoryMapper">
+    <resultMap id="tblPurchasehistoryMap" type="com.ssm.entity.TblPurchasehistory">
+        <result property="pk_PurchaseHistory" column="pk_PurchaseHistory"></result>
+        <result property="puHi_Type" column="puHi_Type"></result>
+        <result property="puHi_PurchaseHistoryTime" column="puHi_PurchaseHistoryTime"></result>
+        <result property="puHi_Monetary" column="puHi_Monetary"></result>
+        <result property="puHi_UserId" column="puHi_UserId"></result>
+        <result property="puHi_ElectricPileCode" column="puHi_ElectricPileCode"></result>
+        <result property="puHi_TransactionNumber" column="puHi_TransactionNumber"></result>
+        <result property="account_id" column="account_id"></result>
+    </resultMap>
+
+    <select id="tblPurchasehistoryInfo" parameterType="java.lang.String" resultMap="tblPurchasehistoryMap">
+    SELECT
+        pk_PurchaseHistory,
+        puHi_Type,
+        puHi_PurchaseHistoryTime,
+        puHi_Monetary,
+        puHi_UserId,
+        puHi_ElectricPileCode,
+        puHi_TransactionNumber,
+        account_id
+    FROM
+        tbl_purchasehistory
+    WHERE
+	    puHi_TransactionNumber = #{transactionNumber};
+    </select>
+</mapper>

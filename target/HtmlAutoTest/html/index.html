@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>爱充科技有限公司自动化测试</title>
+    <link href="index.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <div class="topbar">
+        <div class="container">
+            <div class="topbar-name">
+                <p>爱充科技有限公司自动化测试</p>
+            </div>
+            <div class="topbar-author">
+                <p>作者:曹靖</p>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="testCharge">
+        <div class="container">
+            <div class="inputTransactionNumber">
+                <form class="inputTransactionNumber-form" action="/AutoTest/chargeTest.do" method="post">
+                    <!--<div>请选择数据库的环境:<br/></div>-->
+                    <!--<input type="radio" name="mysqlConnection" value="mysqlTest">mysql测试环境-->
+                    <!--<input type="radio" name="mysqlConnection" value="mysqlDeploy">mysql预发环境<br/>-->
+                    请选择服务器的环境:<br/>
+                    <input type="radio" name="serviceConnection" value="serviceTest">服务器测试环境
+                    <input type="radio" name="serviceConnection" value="serviceDeploy">服务器预发环境<br/>
+                    请选择需要测试的充电业务:<br/>
+                    <input type="radio" name="chargeRadio" value="oldCaocao_charge">老曹操充电业务
+                    <input type="radio" name="chargeRadio" value="newCaocao_charge">新曹操充电业务
+                    <input type="radio" name="chargeRadio" value="aichongApp_charge">爱充app充电业务<br/>
+                    <input type="radio" name="chargeRadio" value="wechat_charge">微信小程序充电业务
+                    <input type="radio" name="chargeRadio" value="alipay_charge">支付宝小程序充电业务
+                    <input type="radio" name="chargeRadio" value="evcs_charge">中电联第三方公司充电业务<br/>
+                    请输入交易流水号:<br/>
+                    <input class="inputTransactionNumber-form-text" type="text" name="TransactionNumber"><br/>
+                    <input class="inputTransactionNumber-form-btn" type="submit" value="开始进行测试">
+                </form>
+
+            </div>
+        </div>
+    </div>
+
+
+</body>
+</html>

@@ -1,0 +1,75 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+.container{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    width: 870px;
+}
+
+.container::before,.container::after{
+    content: "";
+    display: table;
+}
+
+.container::after{
+    clear: both;
+}
+
+.topbar{
+    height: 80px;
+    background-color: green;
+}
+
+.topbar-name{
+    float: left;
+    font-size: 25px;
+    width: 600px;
+    height: 80px;
+    /*border: 1px solid black;*/
+    text-align: center;
+}
+
+.topbar-author{
+    float: right;
+    font-size: 25px;
+    width: 200px;
+    height: 80px;
+    /*border: 1px solid black;*/
+    text-align: center;
+    color: red;
+}
+
+.testCharge{
+    height: 250px;
+    background-color: orange;
+}
+
+.inputTransactionNumber .inputTransactionNumber-form{
+    display: block;
+    float: left;
+    height: 250px;
+    width: 600px;
+    margin-top: 15px;
+    margin-left: 15px;
+    /*border: 1px solid black;*/
+}
+
+.inputTransactionNumber .inputTransactionNumber-form .inputTransactionNumber-form-text{
+    display: block;
+    width: 300px;
+    height: 20px;
+    border: 1px solid black;
+}
+
+.inputTransactionNumber .inputTransactionNumber-form .inputTransactionNumber-form-btn{
+    display: block;
+    width: 100px;
+    height: 30px;
+    border: 1px solid black;
+    /*margin-left: 20px;*/
+}

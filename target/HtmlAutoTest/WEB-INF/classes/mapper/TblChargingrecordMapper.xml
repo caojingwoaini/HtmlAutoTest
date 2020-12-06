@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.ssm.dao.TblChargingrecordMapper">
+
+    <resultMap id="BaseResultMap" type="com.ssm.entity.TblChargingrecord">
+        <id column="pk_ChargingRecord" jdbcType="BIGINT" property="pkChargingrecord" />
+        <result column="chRe_ElectricPileID" jdbcType="INTEGER" property="chreElectricpileid" />
+        <result column="chRe_UsingMachineCode" jdbcType="VARCHAR" property="chreUsingmachinecode" />
+        <result column="chRe_TransactionNumber" jdbcType="VARCHAR" property="chreTransactionnumber" />
+        <result column="chRe_ReservationNumber" jdbcType="VARCHAR" property="chreReservationnumber" />
+        <result column="chRe_StartDate" jdbcType="TIMESTAMP" property="chreStartdate" />
+        <result column="chRe_ChargingNumber" jdbcType="INTEGER" property="chreChargingnumber" />
+        <result column="chRe_ChargingMethod" jdbcType="INTEGER" property="chreChargingmethod" />
+        <result column="chRe_RestTime" jdbcType="INTEGER" property="chreResttime" />
+        <result column="chRe_EndDate" jdbcType="TIMESTAMP" property="chreEnddate" />
+        <result column="chRe_Code" jdbcType="VARCHAR" property="chreCode" />
+        <result column="chRe_BeginShowsNumber" jdbcType="VARCHAR" property="chreBeginshowsnumber" />
+        <result column="chRe_EndShowsNumber" jdbcType="VARCHAR" property="chreEndshowsnumber" />
+        <result column="user_phone" jdbcType="VARCHAR" property="userPhone" />
+        <result column="user_id" jdbcType="INTEGER" property="userId" />
+        <result column="chRe_UserOrigin" jdbcType="SMALLINT" property="chreUserorigin" />
+        <result column="chRe_Status" jdbcType="TINYINT" property="chreStatus" />
+        <result column="chRe_StopCause" jdbcType="TINYINT" property="chreStopcause" />
+        <result column="chRe_JPrice" jdbcType="DECIMAL" property="chreJprice" />
+        <result column="chRe_FPrice" jdbcType="DECIMAL" property="chreFprice" />
+        <result column="chRe_PPrice" jdbcType="DECIMAL" property="chrePprice" />
+        <result column="chRe_GPrice" jdbcType="DECIMAL" property="chreGprice" />
+        <result column="chRe_QuantumDate" jdbcType="VARCHAR" property="chreQuantumdate" />
+        <result column="chRe_FrozenAmt" jdbcType="DECIMAL" property="chreFrozenamt" />
+        <result column="chRe_RealAmt" jdbcType="DECIMAL" property="chreRealamt" />
+        <result column="pk_UserCard" jdbcType="INTEGER" property="pkUsercard" />
+        <result column="chRe_PayMode" jdbcType="INTEGER" property="chrePaymode" />
+        <result column="chRe_OrgNo" jdbcType="INTEGER" property="chreOrgno" />
+        <result column="chRe_ServiceCharge" jdbcType="DECIMAL" property="chreServicecharge" />
+        <result column="chRe_ThirdCode" jdbcType="INTEGER" property="chreThirdcode" />
+        <result column="chRe_ThirdType" jdbcType="SMALLINT" property="chreThirdtype" />
+        <result column="chre_parter_user_logo" jdbcType="VARCHAR" property="chreParterUserLogo" />
+        <result column="chre_parter_extradata" jdbcType="VARCHAR" property="chreParterExtradata" />
+        <result column="chre_usrgateip" jdbcType="VARCHAR" property="chreUsrgateip" />
+        <result column="chRe_JMoney" jdbcType="DECIMAL" property="chreJmoney" />
+        <result column="chRe_FMoney" jdbcType="DECIMAL" property="chreFmoney" />
+        <result column="chRe_PMoney" jdbcType="DECIMAL" property="chrePmoney" />
+        <result column="chRe_GMoney" jdbcType="DECIMAL" property="chreGmoney" />
+        <result column="account_id" jdbcType="BIGINT" property="accountId" />
+        <result column="chRe_TipPrice" jdbcType="DECIMAL" property="chreTipprice" />
+        <result column="chRe_PeakPrice" jdbcType="DECIMAL" property="chrePeakprice" />
+        <result column="chRe_FlatPrice" jdbcType="DECIMAL" property="chreFlatprice" />
+        <result column="chRe_valleyPrice" jdbcType="DECIMAL" property="chreValleyprice" />
+        <result column="chRe_TipMoney" jdbcType="DECIMAL" property="chreTipmoney" />
+        <result column="chRe_PeakMoney" jdbcType="DECIMAL" property="chrePeakmoney" />
+        <result column="chRe_FlatMoney" jdbcType="DECIMAL" property="chreFlatmoney" />
+        <result column="chRe_valleyMoney" jdbcType="DECIMAL" property="chreValleymoney" />
+    </resultMap>
+
+    <sql id="Base_Column_List">
+    pk_ChargingRecord, chRe_ElectricPileID, chRe_UsingMachineCode, chRe_TransactionNumber,
+    chRe_ReservationNumber, chRe_StartDate, chRe_ChargingNumber, chRe_ChargingMethod,
+    chRe_RestTime, chRe_EndDate, chRe_Code, chRe_BeginShowsNumber, chRe_EndShowsNumber,
+    user_phone, user_id, chRe_UserOrigin, chRe_Status, chRe_StopCause, chRe_JPrice, chRe_FPrice,
+    chRe_PPrice, chRe_GPrice, chRe_QuantumDate, chRe_FrozenAmt, chRe_RealAmt, pk_UserCard,
+    chRe_PayMode, chRe_OrgNo, chRe_ServiceCharge, chRe_ThirdCode, chRe_ThirdType, chre_parter_user_logo,
+    chre_parter_extradata, chre_usrgateip, chRe_JMoney, chRe_FMoney, chRe_PMoney, chRe_GMoney,
+    account_id, chRe_TipPrice, chRe_PeakPrice, chRe_FlatPrice, chRe_valleyPrice, chRe_TipMoney,
+    chRe_PeakMoney, chRe_FlatMoney, chRe_valleyMoney
+  </sql>
+
+    <select id="tblChargingrecordInfo" parameterType="java.lang.String" resultMap="BaseResultMap">
+      select <include refid="Base_Column_List" />
+         from tbl_chargingrecord
+        WHERE
+        chRe_TransactionNumber = #{transactionNumber,jdbcType=VARCHAR};
+    </select>
+
+
+</mapper>

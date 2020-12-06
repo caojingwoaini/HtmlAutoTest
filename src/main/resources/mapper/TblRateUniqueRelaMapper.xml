@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.ssm.dao.TblRateUniqueRelaMapper">
+    <resultMap id="tblRateUniqueRelaMap" type="com.ssm.entity.TblRateUniqueRela">
+        <result property="pk_id" column="pk_id"></result>
+        <result property="cpy_id" column="cpy_id"></result>
+        <result property="electricpile_id" column="electricpile_id"></result>
+        <result property="level_id" column="level_id"></result>
+        <result property="rateinfo_id" column="rateinfo_id"></result>
+        <result property="pre_rateinfo_id" column="pre_rateinfo_id"></result>
+    </resultMap>
+
+    <select id="tblRateUniqueRelaInfo" parameterType="int" resultMap="tblRateUniqueRelaMap">
+    SELECT
+	pk_id,
+	cpy_id,
+	electricpile_id,
+	level_id,
+	rateinfo_id,
+	pre_rateinfo_id
+    FROM
+	tbl_rate_unique_rela
+    WHERE
+	cpy_id = #{cpyId}
+    AND electricpile_id = #{electricpileId}
+    AND level_id = #{levelId};
+    </select>
+
+
+</mapper>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.ssm.dao.TblPartnerMapper">
+
+    <resultMap id="PartnerMap" type="com.ssm.entity.TblPartner">
+        <result column="pk_partner" property="pk_partner"/>
+		<result column="partnerName" property="partnerName"/>
+		<result column="partnerKey" property="partnerKey"/>
+		<result column="partnerToken" property="partnerToken"/>
+		<result column="partnerClientKey" property="partnerClientKey"/>
+		<result column="valid" property="valid"/>
+		<result column="paymod" property="paymod"/>
+		<result column="tokenUrl" property="tokenUrl"/>
+		<result column="tokenSecret" property="tokenSecret"/>
+		<result column="Secret" property="secret"/>
+		<result column="pushStartUrl" property="pushStartUrl"/>
+		<result column="pushStopUrl" property="pushStopUrl"/>
+		<result column="pushOrderUrl" property="pushOrderUrl"/>
+		<result column="pushEquipStatusUrl" property="pushEquipStatusUrl"/>
+		<result column="pushOrderCheckUrl" property="pushOrderCheckUrl"/>
+		<result column="pushChargeStatusUrl" property="pushChargeStatusUrl"/>
+		<result column="cpy_id" property="cpy_id"/>
+		<result column="compatible" property="compatible"/>
+		<result column="third_secret" property="third_secret"/>
+		<result column="serviceCode" property="serviceCode"/>
+		<result column="equipmentOwnerId" property="equipmentOwnerId"/>
+    </resultMap>
+
+    <select id="tblPartnerInfo" parameterType="String" resultMap="PartnerMap">
+	  SELECT
+	pk_partner,
+	partnerName,
+	partnerKey,
+	partnerToken,
+	partnerClientKey,
+	valid,
+	paymod,
+	tokenUrl,
+	tokenSecret,
+	Secret,
+	pushStartUrl,
+	pushStopUrl,
+	pushOrderUrl,
+	pushEquipStatusUrl,
+	pushOrderCheckUrl,
+	pushChargeStatusUrl,
+	cpy_id,
+	compatible,
+	third_secret,
+	serviceCode,
+	equipmentOwnerId
+	FROM
+	tbl_partner
+	WHERE
+	cpy_id = #{cpyId};
+	</select>
+
+</mapper>

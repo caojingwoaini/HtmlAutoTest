@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.ssm.dao.TblElectricpileMapper">
+
+    <resultMap id="tblElectricpileMap" type="com.ssm.entity.TblElectricpile">
+        <id property="pkElectricPile" column="pk_ElectricPile"/>
+        <result property="elpiElectricpilename" column="elPi_ElectricPileName"/>
+        <result property="elpiElectricpilecode" column="elPi_ElectricPileCode"/>
+        <result property="elpiElectricpileaddress" column="elPi_ElectricPileAddress"/>
+        <result property="elpiLongitude" column="elPi_Longitude"/>
+        <result property="elpiLatitude" column="elPi_Latitude"/>
+        <result property="elpiPowernumber" column="elPi_PowerNumber"/>
+        <result property="elpiState" column="elPi_State"/>
+        <result property="elpiRejectionreason" column="elPi_RejectionReason"/>
+        <result property="elpiType" column="elPi_Type"/>
+        <result property="elpiPoweruser" column="elPi_PowerUser"/>
+        <result property="elpiChargingmode" column="elPi_ChargingMode"/>
+        <result property="elpiPowersize" column="elPi_PowerSize"/>
+        <result property="elpiPowerinterface" column="elPi_PowerInterface"/>
+        <result property="elpiMaker" column="elPi_Maker"/>
+        <result property="elpiOutputvoltage" column="elPi_OutputVoltage"/>
+        <result property="elpiInputvoltage" column="elPi_InputVoltage"/>
+        <result property="elpiOutputcurrent" column="elPi_OutputCurrent"/>
+        <result property="elpiInputcurrent" column="elPi_InputCurrent"/>
+        <result property="elpiUsertype" column="elPi_UserType"/>
+        <result property="elpiUserid" column="elPi_UserId"/>
+        <result property="elpiCreatedate" column="elPi_Createdate"/>
+        <result property="elpiUpdatedate" column="elPi_Updatedate"/>
+        <result property="elpiRemark" column="elPi_Remark"/>
+        <result property="elpiCarid" column="elPi_Carid"/>
+        <result property="elpiBinding" column="elPi_Binding"/>
+        <result property="elpiIsappoint" column="elPi_IsAppoint"/>
+        <result property="elpiPaystyle" column="elPi_PayStyle"/>
+        <result property="elpiMaxelectricity" column="elPi_MaxElectricity"/>
+        <result property="elpiPowerusername" column="elPi_PowerUserName"/>
+        <result property="elpiChargingmodename" column="elPi_ChargingModeName"/>
+        <result property="elpiPowerinterfacename" column="elPi_PowerInterfaceName"/>
+        <result property="elpiRelevancepowerstation" column="elPi_RelevancePowerStation"/>
+        <result property="elpiTell" column="elPi_Tell"/>
+        <result property="elpiRateinformationid" column="elPi_RateInformationId"/>
+        <result property="commStatus" column="comm_status"/>
+        <result property="epNum" column="ep_num"/>
+        <result property="elpiUsername" column="elPi_UserName"/>
+        <result property="elpiOnlinetime" column="elPi_OnlineTime"/>
+        <result property="elpiOwnprovincecode" column="elpi_Ownprovincecode"/>
+        <result property="elpiOwncitycode" column="elpi_Owncitycode"/>
+        <result property="elpiOwncountycode" column="elpi_Owncountycode"/>
+        <result property="elpiOfflinetime" column="elpi_Offlinetime"/>
+        <result property="elpiGateid" column="elpi_Gateid"/>
+        <result property="elpiOwnercompany" column="elpi_Ownercompany"/>
+        <result property="pkConcentratorid" column="pk_Concentratorid"/>
+        <result property="concentratorNum" column="concentrator_Num"/>
+    </resultMap>
+    <sql id="sql_select">
+		pk_ElectricPile,elPi_ElectricPileName,elPi_ElectricPileCode,elPi_ElectricPileAddress,elPi_Longitude,
+		elPi_Latitude,elPi_PowerNumber,elPi_State,elPi_RejectionReason,
+		elPi_Type,elPi_PowerUser,elPi_ChargingMode,elPi_PowerSize,elPi_PowerInterface,
+		elPi_Maker,elPi_OutputVoltage,elPi_InputVoltage,
+		elPi_OutputCurrent,elPi_InputCurrent,elPi_UserType,elPi_UserId,elPi_Createdate,
+		elPi_Updatedate,elPi_Remark,elPi_Carid,elPi_Binding,elPi_IsAppoint,
+		elPi_PayStyle,elPi_MaxElectricity,elPi_PowerUserName,elPi_ChargingModeName,elPi_PowerInterfaceName,
+		elPi_RelevancePowerStation,elPi_Tell,elPi_RateInformationId,comm_status,ep_num,
+		elPi_UserName,elPi_OnlineTime,elpi_Ownprovincecode,elpi_Owncitycode,elpi_Owncountycode,
+		elpi_Offlinetime,elpi_Gateid,elpi_Ownercompany,
+		pk_Concentratorid,concentrator_Num,have_connect_line,elPi_Parking_Fee
+	</sql>
+
+    <select id="tblElectricpileInfo" parameterType="java.lang.String" resultMap="tblElectricpileMap">
+    SELECT
+	<include refid="sql_select" />
+    FROM
+	tbl_electricpile
+    WHERE
+	elPi_ElectricPileCode = #{elPiElectricPileCode};
+    </select>
+</mapper>
