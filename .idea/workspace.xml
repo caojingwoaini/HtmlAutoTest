@@ -6,22 +6,7 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="233efa90-84db-4ae3-a984-732bc6f50d65" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/HtmlAutoTest_jar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ssm/publicMethod/SshMethod.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ssm/publicMethod/SshMethod.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/jdbc.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/jdbc.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/system.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/system.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/HtmlAutoTest.war" beforeDir="false" afterPath="$PROJECT_DIR$/target/HtmlAutoTest.war" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/HtmlAutoTest/WEB-INF/classes/com/ssm/controller/ChargeController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/HtmlAutoTest/WEB-INF/classes/com/ssm/controller/ChargeController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/HtmlAutoTest/WEB-INF/classes/com/ssm/publicMethod/SshMethod.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/HtmlAutoTest/WEB-INF/classes/com/ssm/publicMethod/SshMethod.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/HtmlAutoTest/WEB-INF/classes/jdbc.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/HtmlAutoTest/WEB-INF/classes/jdbc.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/HtmlAutoTest/WEB-INF/classes/system.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/HtmlAutoTest/WEB-INF/classes/system.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ssm/controller/ChargeController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ssm/controller/ChargeController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ssm/publicMethod/SshMethod.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ssm/publicMethod/SshMethod.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/jdbc.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/jdbc.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/system.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/system.properties" afterDir="false" />
-    </list>
+    <list default="true" id="233efa90-84db-4ae3-a984-732bc6f50d65" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -37,14 +22,14 @@
           <entry key="project.closed" value="43" />
           <entry key="project.open.time.1" value="8" />
           <entry key="project.open.time.16" value="2" />
-          <entry key="project.open.time.2" value="24" />
+          <entry key="project.open.time.2" value="25" />
           <entry key="project.open.time.20" value="1" />
           <entry key="project.open.time.25" value="1" />
           <entry key="project.open.time.3" value="4" />
           <entry key="project.open.time.4" value="1" />
           <entry key="project.open.time.5" value="1" />
           <entry key="project.open.time.7" value="1" />
-          <entry key="project.opened" value="43" />
+          <entry key="project.opened" value="44" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -75,7 +60,7 @@
           <entry key="html" value="13" />
           <entry key="java" value="406" />
           <entry key="jsp" value="3" />
-          <entry key="properties" value="34" />
+          <entry key="properties" value="35" />
           <entry key="xml" value="69" />
         </counts>
       </usages-collector>
@@ -86,7 +71,7 @@
           <entry key="HTML" value="13" />
           <entry key="JAVA" value="406" />
           <entry key="JSP" value="3" />
-          <entry key="Properties" value="34" />
+          <entry key="Properties" value="35" />
           <entry key="XML" value="69" />
         </counts>
       </usages-collector>
@@ -94,7 +79,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/html/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="435">
@@ -108,6 +93,15 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="360">
               <caret line="18" column="25" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/jdbc.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="200">
+              <caret line="10" column="29" lean-forward="true" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
             </state>
           </provider>
         </entry>
@@ -227,7 +221,7 @@
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="117" />
-    <option name="y" value="43" />
+    <option name="y" value="42" />
     <option name="width" value="1323" />
     <option name="height" value="793" />
   </component>
@@ -237,6 +231,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -385,14 +380,13 @@
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="AndroidView" />
       <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1600679374488" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1607249327989" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -631,16 +625,18 @@
       <workItem from="1606625215032" duration="2972000" />
       <workItem from="1606651942004" duration="119000" />
       <workItem from="1607000134276" duration="610000" />
+      <workItem from="1607243901099" duration="2231000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="183846000" />
+    <option name="totallyTimeSpent" value="186077000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="117" y="43" width="1323" height="793" extended-state="0" />
+    <frame x="117" y="42" width="1323" height="793" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24980484" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25370803" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -651,7 +647,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.40536723" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4991987" weight="0.46460176" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" sideWeight="0.4991987" visible="true" weight="0.46460176" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -1021,13 +1017,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/jdbc.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="10" column="29" lean-forward="true" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/html/index.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
@@ -1060,6 +1049,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
           <caret line="18" column="25" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/jdbc.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="10" column="29" lean-forward="true" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
         </state>
       </provider>
     </entry>
