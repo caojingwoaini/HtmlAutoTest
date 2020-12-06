@@ -285,7 +285,7 @@ public class ChargeController {
         }catch (Exception e){
             e.printStackTrace();
         }
-        responseList.add("推送数据测试通过");
+        responseList.add("推送数据测试通过哈哈哈");
         return responseList;
     }
 }
