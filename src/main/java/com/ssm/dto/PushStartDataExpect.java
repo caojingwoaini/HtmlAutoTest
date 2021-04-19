@@ -16,7 +16,7 @@ public class PushStartDataExpect {
         pushStartDataExpect.setStartTime(pushData.split(",")[0]);
         pushStartDataExpect.setStartChargeSeq(tblChargingOrder.getChorParterExtradata());
         pushStartDataExpect.setStartChargeSeqStat(2);
-        pushStartDataExpect.setIdentCode("123456");
+        pushStartDataExpect.setIdentCode("123123");
         pushStartDataExpect.setConnectorID(tblChargingOrder.getChorPilenumber()+"0"+tblChargingOrder.getChorMuzzle());
     }
 }

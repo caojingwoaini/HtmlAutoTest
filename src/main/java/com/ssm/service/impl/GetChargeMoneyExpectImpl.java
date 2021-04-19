@@ -70,7 +70,7 @@ public class GetChargeMoneyExpectImpl implements GetChargeMoneyExpect {
                     add(chOr_usualPower.multiply(chreFlatmoney)).add(chOr_valleyPower.multiply(chreValleymoney)).setScale(4,BigDecimal.ROUND_HALF_UP);
             chorMoenyExcept=chorChargemoneyExcept.add(chorServicemoneyExcept).setScale(4,BigDecimal.ROUND_HALF_UP);
         }
-        BigDecimal FrozenMoneyExcept=new BigDecimal("200.0000").setScale(4,BigDecimal.ROUND_HALF_UP);
+        BigDecimal FrozenMoneyExcept=tblChargingrecord.getChreFrozenamt().setScale(4,BigDecimal.ROUND_HALF_UP);
         BigDecimal RefundMoneyExcept=FrozenMoneyExcept.subtract(chorMoenyExcept).setScale(4,BigDecimal.ROUND_HALF_UP);
 
         chargeMoneyExpectDTO.setTotalMoney(chorMoenyExcept);

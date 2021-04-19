@@ -62,9 +62,9 @@ public class PushEquipStatusDataExpect {
 
 
     public static void main(String[] args){
-        String str="2020-09-17 16:20:15,907 INFO : com.wanma.service.impl.EpServiceImpl - onGunWorkStatusChange4Html  is begin epCode:3301060019321445|epGunNo:1|realData:{\"1_1\":1,\"1_7\":0,\"2_13\":0,\"2_2\":0,\"3_1\":3,\"3_3\":5200,\"3_4\":11200,\"3_41\":0,\"3_42\":0,\"3_43\":0,\"3_44\":0,\"3_45\":0,\"3_46\":0,\"3_5\":0,\"3_6\":0,\"3_7\":0,\"4_1\":0,\"4_2\":0,\"4_3\":0,\"4_4\":0}";
-        String realData=str.split("realData:")[1];
-        JSONObject jsonObject= JSON.parseObject(realData);
-        System.out.println(jsonObject.get("3_1").equals(3));
+//        String str="2020-09-17 16:20:15,907 INFO : com.wanma.service.impl.EpServiceImpl - onGunWorkStatusChange4Html  is begin epCode:3301060019321445|epGunNo:1|realData:{\"1_1\":1,\"1_7\":0,\"2_13\":0,\"2_2\":0,\"3_1\":3,\"3_3\":5200,\"3_4\":11200,\"3_41\":0,\"3_42\":0,\"3_43\":0,\"3_44\":0,\"3_45\":0,\"3_46\":0,\"3_5\":0,\"3_6\":0,\"3_7\":0,\"4_1\":0,\"4_2\":0,\"4_3\":0,\"4_4\":0}";
+//        String realData=str.split("realData:")[1];
+//        JSONObject jsonObject= JSON.parseObject(realData);
+//        System.out.println(jsonObject.get("3_1").equals(3));
     }
 }
