@@ -95,9 +95,12 @@
         <entry file="file://$PROJECT_DIR$/src/main/webapp/html/index.html">
           <provider selected="true" editor-type-id="text-editor">
 <<<<<<< HEAD
+<<<<<<< HEAD
             <state relative-caret-position="201">
               <caret line="14" column="24" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
 =======
+=======
+>>>>>>> liuqi
 <<<<<<< Updated upstream
             <state relative-caret-position="240">
               <caret line="17" column="10" lean-forward="true" selection-start-line="17" selection-start-column="10" selection-end-line="17" selection-end-column="10" />
@@ -105,6 +108,9 @@
             <state relative-caret-position="221">
               <caret line="15" column="18" lean-forward="true" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
 >>>>>>> Stashed changes
+<<<<<<< HEAD
+>>>>>>> liuqi
+=======
 >>>>>>> liuqi
             </state>
           </provider>
@@ -254,15 +260,21 @@
   </component>
   <component name="ProjectFrameBounds">
 <<<<<<< HEAD
+<<<<<<< HEAD
     <option name="x" value="62" />
     <option name="y" value="27" />
 =======
+=======
+>>>>>>> liuqi
 <<<<<<< Updated upstream
     <option name="x" value="95" />
     <option name="y" value="29" />
 =======
     <option name="y" value="28" />
 >>>>>>> Stashed changes
+<<<<<<< HEAD
+>>>>>>> liuqi
+=======
 >>>>>>> liuqi
     <option name="width" value="1345" />
     <option name="height" value="798" />
@@ -421,13 +433,19 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
 <<<<<<< HEAD
+<<<<<<< HEAD
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1618845672768" />
 =======
+=======
+>>>>>>> liuqi
 <<<<<<< Updated upstream
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1618844708290" />
 =======
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1618845932156" />
 >>>>>>> Stashed changes
+<<<<<<< HEAD
+>>>>>>> liuqi
+=======
 >>>>>>> liuqi
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -698,24 +716,33 @@
       <workItem from="1616056898052" duration="10000" />
       <workItem from="1616073202684" duration="600000" />
 <<<<<<< HEAD
+<<<<<<< HEAD
       <workItem from="1618844297498" duration="1425000" />
 =======
+=======
+>>>>>>> liuqi
 <<<<<<< Updated upstream
       <workItem from="1618844297498" duration="241000" />
 =======
       <workItem from="1618844297498" duration="1721000" />
 >>>>>>> Stashed changes
+<<<<<<< HEAD
+>>>>>>> liuqi
+=======
 >>>>>>> liuqi
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
 <<<<<<< HEAD
+<<<<<<< HEAD
     <option name="totallyTimeSpent" value="245841000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="62" y="27" width="1345" height="798" extended-state="0" />
 =======
+=======
+>>>>>>> liuqi
 <<<<<<< Updated upstream
     <option name="totallyTimeSpent" value="244657000" />
   </component>
@@ -727,6 +754,9 @@
   <component name="ToolWindowManager">
     <frame x="0" y="28" width="1345" height="798" extended-state="0" />
 >>>>>>> Stashed changes
+<<<<<<< HEAD
+>>>>>>> liuqi
+=======
 >>>>>>> liuqi
     <editor active="true" />
     <layout>
@@ -1122,9 +1152,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/html/index.html">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="201">
           <caret line="14" column="24" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
 =======
+=======
+>>>>>>> liuqi
 <<<<<<< Updated upstream
         <state relative-caret-position="340">
           <caret line="106" column="24" lean-forward="true" selection-start-line="106" selection-start-column="24" selection-end-line="106" selection-end-column="24" />
@@ -1132,6 +1165,9 @@
         <state relative-caret-position="221">
           <caret line="15" column="18" lean-forward="true" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
 >>>>>>> Stashed changes
+<<<<<<< HEAD
+>>>>>>> liuqi
+=======
 >>>>>>> liuqi
         </state>
       </provider>
