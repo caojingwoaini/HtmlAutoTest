@@ -95,8 +95,13 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/html/index.html">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< Updated upstream
             <state relative-caret-position="240">
               <caret line="17" column="10" lean-forward="true" selection-start-line="17" selection-start-column="10" selection-end-line="17" selection-end-column="10" />
+=======
+            <state relative-caret-position="221">
+              <caret line="15" column="18" lean-forward="true" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
+>>>>>>> Stashed changes
             </state>
           </provider>
         </entry>
@@ -239,8 +244,12 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
+<<<<<<< Updated upstream
     <option name="x" value="95" />
     <option name="y" value="29" />
+=======
+    <option name="y" value="28" />
+>>>>>>> Stashed changes
     <option name="width" value="1345" />
     <option name="height" value="798" />
   </component>
@@ -397,7 +406,11 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+<<<<<<< Updated upstream
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1618844708290" />
+=======
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1618845932156" />
+>>>>>>> Stashed changes
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -666,15 +679,26 @@
       <workItem from="1616049059196" duration="108000" />
       <workItem from="1616056898052" duration="10000" />
       <workItem from="1616073202684" duration="600000" />
+<<<<<<< Updated upstream
       <workItem from="1618844297498" duration="241000" />
+=======
+      <workItem from="1618844297498" duration="1721000" />
+>>>>>>> Stashed changes
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< Updated upstream
     <option name="totallyTimeSpent" value="244657000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="95" y="29" width="1345" height="798" extended-state="0" />
+=======
+    <option name="totallyTimeSpent" value="246137000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="28" width="1345" height="798" extended-state="0" />
+>>>>>>> Stashed changes
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23407522" />
@@ -1068,8 +1092,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/ssm/controller/ChargeController.java">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< Updated upstream
         <state relative-caret-position="340">
           <caret line="106" column="24" lean-forward="true" selection-start-line="106" selection-start-column="24" selection-end-line="106" selection-end-column="24" />
+=======
+        <state relative-caret-position="221">
+          <caret line="15" column="18" lean-forward="true" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
+>>>>>>> Stashed changes
         </state>
       </provider>
     </entry>
